@@ -2,11 +2,11 @@ name: Build and Tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:   
-    - cron: '56 * * * *'
+    - cron: '0 12 * * *'
 
 jobs:
   build:
